@@ -1,8 +1,9 @@
+/*
 p{
     color:blue;
     background-color: brown;
     text-align:center;
-}
+} */
 .p{
     color:aquamarine;
     background-color: azure;
@@ -10,4 +11,12 @@ p{
 
 #ad{
     font-size: 25px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(39, 12, 128);
+    padding: 40px;
+    border: 1px solid black;
+    margin: 30px;
 }

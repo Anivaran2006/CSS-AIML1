@@ -1,0 +1,52 @@
+div{
+    
+    height: 80px;
+    width: 50px;
+    color: blue;
+    background-color: antiquewhite;
+    padding: 1px;
+    border:1px solid blueviolet;
+    margin: 1px;
+}
+#ad{
+    font-size: 25px;
+}
+div{
+    
+    height: 200px;
+    width: 200px;
+    color: blue;
+    background-color: antiquewhite;
+    padding: 20px;
+    border:1px solid blueviolet;
+    margin: 10px;
+}
+#as{
+    font-size: 20px;
+}
+div{
+    
+    height: 400px;
+    width: 300px;
+    color: blue;
+    background-color: antiquewhite;
+    padding: 20px;
+    border:1px solid blueviolet;
+    margin: 10px;
+}
+#an{
+    font-size:25px;
+}
+div{
+    height: 400px;
+    width: 300px;
+    color: blue;
+    background-color: antiquewhite;
+    padding: 20px;
+    border:1px solid blueviolet;
+    margin: 10px;
+
+}
+
+
+
