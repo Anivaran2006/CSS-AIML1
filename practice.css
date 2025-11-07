@@ -1,52 +1,17 @@
-div{
-    
-    height: 80px;
-    width: 50px;
-    color: blue;
-    background-color: antiquewhite;
-    padding: 1px;
-    border:1px solid blueviolet;
-    margin: 1px;
+h1{
+    color:blueviolet;
+   text-align:center;
 }
-#ad{
-    font-size: 25px;
+p{
+    color:blue
 }
 div{
     
     height: 200px;
-    width: 200px;
+    width: 700px;
     color: blue;
     background-color: antiquewhite;
-    padding: 20px;
-    border:1px solid blueviolet;
-    margin: 10px;
+    padding: 1px;
+    border:5px solid rgb(23, 23, 23);
+    margin: 1px;
 }
-#as{
-    font-size: 20px;
-}
-div{
-    
-    height: 400px;
-    width: 300px;
-    color: blue;
-    background-color: antiquewhite;
-    padding: 20px;
-    border:1px solid blueviolet;
-    margin: 10px;
-}
-#an{
-    font-size:25px;
-}
-div{
-    height: 400px;
-    width: 300px;
-    color: blue;
-    background-color: antiquewhite;
-    padding: 20px;
-    border:1px solid blueviolet;
-    margin: 10px;
-
-}
-
-
-
