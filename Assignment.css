@@ -1,0 +1,27 @@
+  .container{
+    border: 5px solid black;
+    height: 300px;
+    width: 550px;
+    
+}
+.outerbox{
+    background-color: blue;
+    width: 500px;
+    height: 180px;
+    margin: 8.5%;
+
+
+     
+}
+.innerbox{
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    margin: 45px;
+    /* position: absolute; */
+    display: inline-block;
+}
+#ff{
+  text-align: center;
+  margin-top:5%;
+}
