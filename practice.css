@@ -1,0 +1,35 @@
+/* div{
+    border: 10px solid black;
+}
+h1{
+    background: white;
+}
+h2{
+    background:blueviolet;
+}
+p{
+    background:greenyellow
+}
+*/
+div{
+    border : 2px solid black;
+}
+p{
+    border:1px solid yellow;
+    background: yellow;
+    width: 100px;
+    height:100px;
+}
+.second{
+    border:1px solid pink;
+    background: pink;
+    width: 100px;
+    height:100px;
+    
+}
+.third{border:lightblue;
+background: lightblue;
+width:100px;
+height:100px;
+padding-right: 20%;
+}
