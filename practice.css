@@ -1,35 +1,33 @@
-/* div{
-    border: 10px solid black;
+.container{
+    margin:5px;
+    padding:10px;
+    border: solid black;
+    width: 600px;
 }
-h1{
-    background: white;
+.box1{
+    text-align: center;
+    background-color: yellowgreen;
+    margin:20pxpx;
+    border: yellow;
+    width: 120px;
+    height: 250px;
+    display: inline-block;
 }
-h2{
-    background:blueviolet;
+.box2{
+    text-align: center;
+    background-color: pink;
+    margin:20px;
+    border: solid pink;
+    width: 120px;
+    height: 250px;
+    display: inline-block;
 }
-p{
-    background:greenyellow
-}
-*/
-div{
-    border : 2px solid black;
-}
-p{
-    border:1px solid yellow;
-    background: yellow;
-    width: 100px;
-    height:100px;
-}
-.second{
-    border:1px solid pink;
-    background: pink;
-    width: 100px;
-    height:100px;
-    
-}
-.third{border:lightblue;
-background: lightblue;
-width:100px;
-height:100px;
-padding-right: 20%;
+.box3{
+    text-align: center;
+    background-color: skyblue;
+    margin:20px;
+    border: 2px solid skyblue;
+    width: 120px;
+    height: 250px;
+    display:inline-block;
 }
