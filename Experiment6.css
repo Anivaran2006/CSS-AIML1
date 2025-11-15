@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    border: solid black;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product-card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px gray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.product-desc {
+    color: black;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 22px;
+    color: blue;
+    margin: 10px 0;
+}
+
+.old-price {
+    font-size: 16px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: blue;
+}
