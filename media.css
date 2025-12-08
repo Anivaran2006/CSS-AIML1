@@ -1,15 +1,47 @@
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+body{margin:0;
+font_family:Arial,sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1rem;
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
+.menu{
+    display: none;
+    flex-direction: colum;
+    background: grey;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+}
+.menu a{
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+}
+.hamburger{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
 }
 @media(min-width:768px){
-    .box{
-        background-color: yellow;
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        width: auto;
     }
-}
-@media(min-width:1024px){
-    .box{
-        background-color: brown;
+    .hamburger{
+        display: none;
     }
 }
