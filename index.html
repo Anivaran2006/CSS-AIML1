@@ -3,28 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>ShopEasy - Product Page</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: whitesmoke;
+            border: solid black;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        .header {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .product-card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            margin: 30px auto;
+            box-shadow: 0 0 10px gray;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .product-desc {
+            color: black;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 22px;
+            color: blue;
+            margin: 10px 0;
+        }
+
+        .old-price {
+            font-size: 16px;
+            color: red;
+            text-decoration: line-through;
+        }
+
+        .btn {
+            background: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: darkblue;
+        }
+    </style>
 </head>
 <body>
-    <!-- INLINE STYLING-Whenever you use the element we can apply styling on that element -->
-      <!-- ELEMENT SELECTORS-
-      CLASS SELECTORS
-      ID SELECTOR -->
-      <!-- COLOR-Sets the color of a text -->
-      <!-- <P>Hello World</P>
-      <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod impedit laudantium voluptates nemo laborum omnis nulla? Obcaecati consectetur non accusantium.</p>
-      <p class="p" id="ad">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, adipisci.</p>
-            FONT SIZE-Sets the size of the text  
-           parts of font size-em,rem,%,smaller and larger. -->
-           <!-- First value-top
-          second value- right 
-           third value-bottom -->
-           <!-- <div class="container">
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet similique temporibus nam doloribus enim illo ad, suscipit ea. Corrupti?</p>
-           </div> -->
-           <!-- Display :block 
-            Block -level elemets always start on a new line -->
-           
+
+    <div class="container">
+        <header class="header">
+            ShopEasy
+        </header>
+
+        <div class="product-card">
+            <!-- Your saved image is added here -->
+            <img src="img.jpeg" class="product-img" alt="Classic Cotton T-Shirt">
+
+            <h2 class="product-title">Classic Cotton T-Shirt</h2>
+            <p class="product-desc">
+                Soft, breathable cotton. Regular fit. Available in multiple colors.
+            </p>
+
+            <p class="price">
+                ₹799 <span class="old-price">₹1499</span>
+            </p>
+
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div>
+
 </body>
 </html>
