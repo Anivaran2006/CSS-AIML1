@@ -1,0 +1,11 @@
+{
+  "github.copilot.advanced": {
+    "model": "gpt-4o"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "css": true,
+    "html": true,
+    "javascript": true
+  }
+}
