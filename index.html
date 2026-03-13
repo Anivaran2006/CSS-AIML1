@@ -3,110 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopEasy - Product Page</title>
-
-    <!-- Internal CSS -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: whitesmoke;
-            border: solid black;
-        }
-
-        .container {
-            width: 90%;
-            margin: auto;
-            padding-top: 30px;
-        }
-
-        .header {
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 24px;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-
-        .product-card {
-            background: white;
-            width: 300px;
-            padding: 20px;
-            margin: 30px auto;
-            box-shadow: 0 0 10px gray;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .product-img {
-            width: 250px;
-            height: 250px;
-            border-radius: 8px;
-        }
-
-        .product-title {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 15px;
-        }
-
-        .product-desc {
-            color: black;
-            margin: 10px 0;
-        }
-
-        .price {
-            font-size: 22px;
-            color: blue;
-            margin: 10px 0;
-        }
-
-        .old-price {
-            font-size: 16px;
-            color: red;
-            text-decoration: line-through;
-        }
-
-        .btn {
-            background: blue;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 10px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            background: darkblue;
-        }
-    </style>
+    <title>ShopEasy - Your One-Stop Fashion Store</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-    <div class="container">
-        <header class="header">
-            ShopEasy
-        </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">ShopEasy</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <div class="product-card">
-            <!-- Your saved image is added here -->
-            <img src="img.jpeg" class="product-img" alt="Classic Cotton T-Shirt">
-
-            <h2 class="product-title">Classic Cotton T-Shirt</h2>
-            <p class="product-desc">
-                Soft, breathable cotton. Regular fit. Available in multiple colors.
-            </p>
-
-            <p class="price">
-                ₹799 <span class="old-price">₹1499</span>
-            </p>
-
-            <button class="btn">Add to Cart</button>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to ShopEasy</h1>
+            <p>Discover the latest trends in fashion at unbeatable prices. Quality clothing for every occasion.</p>
+            <a href="#products" class="btn btn-hero">Shop Now</a>
         </div>
-    </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <img src="img.jpeg" class="product-img" alt="Classic Cotton T-Shirt">
+                    <div class="product-info">
+                        <h3 class="product-title">Classic Cotton T-Shirt</h3>
+                        <p class="product-desc">Soft, breathable cotton. Regular fit. Available in multiple colors.</p>
+                        <p class="price">₹799 <span class="old-price">₹1499</span></p>
+                        <span class="badge">47% OFF</span>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img.jpeg" class="product-img" alt="Slim Fit Jeans">
+                    <div class="product-info">
+                        <h3 class="product-title">Slim Fit Jeans</h3>
+                        <p class="product-desc">Premium denim, slim fit. Versatile style for casual and semi-formal wear.</p>
+                        <p class="price">₹1299 <span class="old-price">₹2499</span></p>
+                        <span class="badge">48% OFF</span>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img.jpeg" class="product-img" alt="Summer Dress">
+                    <div class="product-info">
+                        <h3 class="product-title">Summer Dress</h3>
+                        <p class="product-desc">Light floral print dress. Perfect for warm days and outdoor events.</p>
+                        <p class="price">₹999 <span class="old-price">₹1899</span></p>
+                        <span class="badge">47% OFF</span>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img.jpeg" class="product-img" alt="Hooded Sweatshirt">
+                    <div class="product-info">
+                        <h3 class="product-title">Hooded Sweatshirt</h3>
+                        <p class="product-desc">Cozy fleece-lined hoodie. Great for casual outings and cool evenings.</p>
+                        <p class="price">₹1499 <span class="old-price">₹2799</span></p>
+                        <span class="badge">46% OFF</span>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose ShopEasy?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Free Delivery</h3>
+                    <p>Enjoy free shipping on all orders above ₹999. Fast and reliable delivery to your doorstep.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Easy Returns</h3>
+                    <p>Not satisfied? Return within 30 days for a full refund. No questions asked.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Payments</h3>
+                    <p>Your payment information is always safe. We support UPI, cards, and net banking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Top Quality</h3>
+                    <p>All products are carefully sourced and quality-checked before they reach you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ShopEasy</h3>
+                    <p>Your one-stop fashion destination. Quality clothing at prices you'll love.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>📧 support@shopeasy.com</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📍 123 Fashion Street, Delhi, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ShopEasy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
